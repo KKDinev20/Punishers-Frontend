@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink } from 'react-router-hash-link';
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
 
@@ -39,15 +37,11 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Resume</Nav.Link>
-              <Nav.Link href="#cv" className={activeLink === 'cv' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>CV</Nav.Link>
-              <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>About</Nav.Link>
+              <Nav.Link href="#resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
+              <Nav.Link href="#cv" className={activeLink === 'cv' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('cv')}>CV</Nav.Link>
+              <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
+              <Nav.Link href="#about" className={activeLink === 'login' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('log in')}>Log in</Nav.Link>
             </Nav>
-            <span className="navbar-text">
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Log in</span></button>
-              </HashLink>
-            </span>
             <span className="navbar-text">
               <HashLink to="#connect">
                  <button className="vvd"><span>Sign up</span></button>
