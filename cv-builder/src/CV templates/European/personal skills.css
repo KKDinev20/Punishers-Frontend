@@ -69,6 +69,30 @@
     text-align: left;
     font-family: 'Philosopher', sans-serif;
 }
+.button1 {
+    background-color: rgb(210, 212, 214);
+    border-style: outset;
+    width: 125px;
+    height: 22px;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    color: black;
+    text-align: left;
+    font-family: 'Philosopher', sans-serif;
+}
+.button2 {
+    background-color: rgb(210, 212, 214);
+    border-style: outset;
+    width: 100px;
+    height: 22px;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    color: black;
+    text-align: left;
+    font-family: 'Philosopher', sans-serif;
+}
 body {
     background-color: beige;
 }
