@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="sign-up-styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="signup__content">
+      <form action="" class="signup__form">
+        <div>
+          <h1 class="signup__title">
+            <span>Create</span> an Account
+          </h1>
+          <p class="signup__description">
+            Welcome! Please sign up to continue.
+          </p>
+        </div>
+
+        <div>
+          <div class="signup__inputs">
+            <div>
+              <label for="" class="signup__label">Name</label>
+              <input type="text" placeholder="Enter your name" required class="signup__input">
+            </div>
+
+            <div>
+              <label for="" class="signup__label">Email</label>
+              <input type="email" placeholder="Enter your email address" required class="signup__input">
+            </div>
+
+            <div>
+              <label for="" class="signup__label">Password</label>
+
+              <div class="signup__box">
+                <input type="password" placeholder="Enter your password" required class="signup__input" id="input-pass">
+                <i class="ri-eye-off-line signup__eye" id="input-icon"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="signup__check">
+            <input type="checkbox" class="signup__check-input">
+            <label for="" class="signup__check-label">I agree to the terms and conditions</label>
+          </div>
+        </div>
+
+        <div>
+          <div class="signup__buttons">
+            <button class="signup__button">Sign Up</button>
+          </div>
+          <a href="../Login/login.html" class="signup__login">Already have an account? Log in</a>
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="signup.js"></script>
+</body>
+
+</html>
