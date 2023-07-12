@@ -11,19 +11,19 @@
     
 }
 #chategories {
-    background-color: rgb(80, 82, 87);
+    background-color: rgb(48, 48, 48);
     height: 1000px;
     width: 345px;
     border-radius: 10px;
 }
 #title-line {
-    background-color: rgb(1, 40, 99);
+    background-color: rgb(74, 4, 4);
     height: 200px;
     width: 1340px;
-    color: rgb(247, 204, 13);
+    color: rgb(194, 178, 128);
     border-radius: 10px;
 }
-.icons {
+.icon {
     height: auto;
     width:auto;
     display: block;
@@ -37,35 +37,31 @@
     text-align: center;
     font-family: 'Philosopher', sans-serif;
 }
-#description-personal-skills{
+.education-info-data1 {
+    background-color: rgb(210, 212, 214);
+    border-style: outset;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+}
+.education-info-data2 {
+    background-color: rgb(210, 212, 214);
+    border-style: outset;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    left: 900px;
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+}
+#description-education{
     background-color: rgb(210, 212, 214);
     border-style: outset;
     width: 755px;
-    height: 357px;
-    text-align: center;
-    position: relative;
-    left: 400px;
-    color: black;
-    text-align: left;
-    font-family: 'Philosopher', sans-serif;
-}
-.button1 {
-    background-color: rgb(210, 212, 214);
-    border-style: outset;
-    width: 125px;
-    height: 22px;
-    text-align: center;
-    position: relative;
-    left: 400px;
-    color: black;
-    text-align: left;
-    font-family: 'Philosopher', sans-serif;
-}
-.button2 {
-    background-color: rgb(210, 212, 214);
-    border-style: outset;
-    width: 100px;
-    height: 22px;
+    height: 375px;
     text-align: center;
     position: relative;
     left: 400px;
