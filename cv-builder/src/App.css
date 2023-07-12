@@ -13,9 +13,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-image: url('./assets/img/banner-bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url('https://img.freepik.com/free-photo/abstract-smooth-purple-backdrop-room-interior-background_1258-85451.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -267,7 +265,7 @@ span.navbar-text-login {
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
   border-radius: 25px;
-  box-shadow: 0 0 10px 0 #B776EB inset, 0 0 20px 2px #B776EB;
+  box-shadow: 0 0 10px 0 #B776EB inset, 0 0 10px 2px #B776EB;
   border: 3px solid #B776EB;
 }
 .navbar-text button span {
@@ -447,4 +445,39 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   100% {
     transform: translateY(-20px);
   }
+}
+
+/********/
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
+
+.loginPage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+}
+
+.loginForm {
+  background-color: rgba(1, 32, 93, 0.6);
+  color: white;
 }
