@@ -10,7 +10,7 @@
         <br>
         <div id="title-line">
             <h1 id="main-title">American CV model</h1>
-            <p id="main-paragraph">.</p>
+            <p id="main-paragraph">Certificired by U.S.A. government model of CV. Let it help you land the job of your dreams.</p>
             <img id="logo" src="american flag.png" alt="american flag">
             <br>
             <br>
@@ -41,67 +41,70 @@
             
             <div class="button1">
     
-                <button>Download as PDF</button>
+                <button onclick="downloadAsPDF()">Download PDF</button>
+
                 <script>
-                    function downloadAsPDF() {
-                        const doc = new jsPDF();
-                        doc.text("CV model EU", 10, 10);
-                        
-                        doc.save("cv.pdf");
-                    }
-                    document.getElementById("downloadButton").addEventListener("click", downloadAsPDF);
-                </script>
+                function downloadAsPDF() {
+                const doc = new jsPDF();
+                const content = document.body;
+                doc.fromHTML(content, 10, 10, {
+                'width': 180
+                 });
+
+                 doc.save('download.pdf');
+             }
+         </script>
             </div>
            <br>
            <div class="button2">
-            <button>Share this CV</button>
-    
-    <script>
-        // Function to handle sharing
-        function shareContent() {
-            if (navigator.share) {
-                navigator.share({
-                    title: 'Share CV',
-                    text: 'Check out this amazing content!',
-                    url: 'https://www.example.com'
-                })
-                .then(() => console.log('Successfully shared'))
-                .catch((error) => console.log('Error sharing:', error));
-            } else {
-                console.log('Web Share API not supported.');
+            <button id="shareButton">Share this CV</button>
 
-                // Fallback options for specific platforms
-                const shareUrl = 'https://www.example.com';
-                const title = 'Your CV';
-                const text = 'Check out this amazing content!';
-                
-                // Instagram
-                const instagramUrl = `https://www.instagram.com/?url=${encodeURIComponent(shareUrl)}`;
-                
-                // Facebook
-                const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`;
-                
-                // LinkedIn
-                const linkedinUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`;
-                
-                // Twitter
-                const twitterUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`;
-                
-                // Discord
-                const discordUrl = `https://discord.com/channels/@me?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}`;
-                
-                // Open sharing options in new tabs
-                window.open(instagramUrl);
-                window.open(facebookUrl);
-                window.open(linkedinUrl);
-                window.open(twitterUrl);
-                window.open(discordUrl);
-            }
-        }
-        
-        // Add click event listener to the share button
-        document.getElementById("shareButton").addEventListener("click", shareContent);
-    </script>
+<script>
+  // Function to handle sharing
+  function shareContent() {
+    if (navigator.share) {
+      navigator.share({
+        title: 'Share CV',
+        text: 'Check out this amazing content!',
+        url: 'https://www.example.com'
+      })
+      .then(() => console.log('Successfully shared'))
+      .catch((error) => console.log('Error sharing:', error));
+    } else {
+      console.log('Web Share API not supported.');
+
+      // Fallback options for specific platforms
+      const shareUrl = 'https://www.example.com';
+      const title = 'Your CV';
+      const text = 'Check out this amazing content!';
+
+      // Instagram
+      const instagramUrl = `https://www.instagram.com/?url=${encodeURIComponent(shareUrl)}`;
+
+      // Facebook
+      const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`;
+
+      // LinkedIn
+      const linkedinUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`;
+
+      // Twitter
+      const twitterUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(text)}`;
+
+      // Discord
+      const discordUrl = `https://discord.com/channels/@me?url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}`;
+
+      // Open sharing options in new tabs
+      window.open(instagramUrl);
+      window.open(facebookUrl);
+      window.open(linkedinUrl);
+      window.open(twitterUrl);
+      window.open(discordUrl);
+    }
+  }
+
+  // Add click event listener to the share button
+  document.getElementById("shareButton").addEventListener("click", shareContent);
+</script>
            </div>
             </div>
         <br>

@@ -11,23 +11,17 @@
     
 }
 #chategories {
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(207, 170, 2);
     height: 1000px;
     width: 345px;
     border-radius: 10px;
 }
 #title-line {
-    background-color: rgb(74, 4, 4);
+    background-color: rgb(214, 0, 0);
     height: 200px;
     width: 1340px;
-    color: rgb(194, 178, 128);
+    color: rgb(255, 255, 255);
     border-radius: 10px;
-}
-.chategory {
-    color: whitesmoke;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Philosopher', sans-serif;
 }
 .icon {
     height: auto;
@@ -36,6 +30,12 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+.chategory {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
 }
 .education-info-data1 {
     background-color: rgb(210, 212, 214);

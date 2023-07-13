@@ -31,12 +31,6 @@
     margin-right: auto;
     width: 50%;
 }
-.chategory {
-    color: whitesmoke;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Philosopher', sans-serif;
-}
 .certificate-data {
     background-color: rgb(210, 212, 214);
     border-style: outset;
@@ -45,6 +39,12 @@
     position: relative;
     left: 400px;
     color: black;
+    font-family: 'Philosopher', sans-serif;
+}
+.chategory {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
     font-family: 'Philosopher', sans-serif;
 }
 #description-personal-skills{
