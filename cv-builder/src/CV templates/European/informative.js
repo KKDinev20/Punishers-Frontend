@@ -1,1 +1,0 @@
-alert(`When you have filled in all the fields, click on the image with the next number.`)
