@@ -1,0 +1,401 @@
+.contact,
+.resumetemplate-child,
+.skills {
+  position: absolute;
+  top: 190.74px;
+  left: 114.21px;
+  width: 486.01px;
+  height: 489.08px;
+}
+.contact,
+.skills {
+  top: 1066px;
+  left: 238px;
+  display: inline-block;
+  width: 292px;
+  height: 71px;
+}
+.skills {
+  top: 1685px;
+  width: 199px;
+}
+.janet-drew {
+  top: 0;
+  left: 0;
+  width: 495.73px;
+  height: 59.91px;
+}
+.business-manager,
+.janet-drew,
+.the-world-of {
+  position: absolute;
+  display: inline-block;
+}
+.business-manager {
+  top: 0;
+  left: 42.53px;
+  letter-spacing: 0.2em;
+  width: 351.14px;
+  height: 35.46px;
+}
+.the-world-of {
+  top: 45.24px;
+  left: 0;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--color-dimgray);
+  width: 492.08px;
+  height: 134.5px;
+}
+.business-manager-parent {
+  position: absolute;
+  top: 79.48px;
+  left: 0;
+  width: 492.08px;
+  height: 179.74px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+}
+.janet-drew-parent {
+  position: absolute;
+  top: 728.73px;
+  left: 148.23px;
+  width: 495.73px;
+  height: 259.21px;
+}
+.group-child,
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 2.44px;
+  border-radius: var(--br-31xl) 0 var(--br-31xl) 0;
+  background-color: var(--color-darkturquoise);
+  width: 119.06px;
+  height: 97.82px;
+}
+.group-item {
+  left: 0;
+  background-color: var(--color-indigo);
+}
+.group-div,
+.vector-icon {
+  position: absolute;
+  top: 33.01px;
+  left: 36.45px;
+  width: 48.6px;
+  height: 31.79px;
+}
+.group-div {
+  top: 0;
+  left: 0;
+  width: 121.5px;
+  height: 97.82px;
+}
+.mirandachestgmailcom {
+  position: absolute;
+  top: 33.01px;
+  left: 150.66px;
+  font-weight: 500;
+  display: inline-block;
+  width: 302.54px;
+  height: 29.34px;
+}
+.div,
+.group-container {
+  position: absolute;
+  top: 0;
+  left: 1.22px;
+  width: 453.2px;
+  height: 97.82px;
+}
+.div {
+  top: 35.46px;
+  left: 151.88px;
+  font-weight: 500;
+  display: inline-block;
+  width: 160.38px;
+  height: 29.34px;
+}
+.group-parent1,
+.ottawa-canada {
+  position: absolute;
+  top: 107.6px;
+  left: 0;
+  width: 312.26px;
+  height: 97.82px;
+}
+.ottawa-canada {
+  top: 24.45px;
+  left: 150.66px;
+  font-weight: 500;
+  display: inline-block;
+  width: 183.47px;
+  height: 29.34px;
+}
+.biglobe-icon,
+.group-parent2 {
+  position: absolute;
+  top: 215.19px;
+  left: 1.22px;
+  width: 334.13px;
+  height: 97.82px;
+}
+.biglobe-icon {
+  top: 24.45px;
+  left: 36.45px;
+  width: 48.6px;
+  height: 48.91px;
+  overflow: hidden;
+}
+.wwwmirandachestcom {
+  position: absolute;
+  top: 25.68px;
+  left: 150.66px;
+  font-weight: 500;
+  display: inline-block;
+  width: 285.53px;
+  height: 29.34px;
+}
+.group-parent,
+.group-parent3 {
+  position: absolute;
+  top: 322.79px;
+  left: 1.22px;
+  width: 436.19px;
+  height: 97.82px;
+}
+.group-parent {
+  top: 1186.02px;
+  left: 147.02px;
+  width: 454.42px;
+  height: 420.61px;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+}
+.drawing,
+.graphic-design,
+.product-design,
+.ui-design,
+.web-design {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 191.97px;
+  height: 41.57px;
+}
+.drawing,
+.graphic-design,
+.product-design,
+.ui-design {
+  top: 61.13px;
+  width: 245.43px;
+}
+.drawing,
+.product-design,
+.ui-design {
+  top: 122.27px;
+  width: 246.65px;
+}
+.drawing,
+.ui-design {
+  top: 183.4px;
+  width: 153.09px;
+}
+.drawing {
+  top: 244.54px;
+  width: 134.87px;
+}
+.web-design-parent {
+  position: absolute;
+  top: 1804.7px;
+  left: 238.14px;
+  width: 246.65px;
+  height: 286.11px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkslategray);
+}
+.group-child2,
+.group-child3 {
+  position: absolute;
+  top: 0;
+  left: 12.15px;
+  border-radius: var(--br-31xl) 0 var(--br-31xl) 0;
+  background-color: var(--color-darkorchid);
+  width: 592.93px;
+  height: 97.82px;
+}
+.group-child3 {
+  left: 0;
+  background-color: var(--color-indigo);
+}
+.education,
+.rectangle-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 605.08px;
+  height: 97.82px;
+}
+.education {
+  top: 19.56px;
+  left: 157.95px;
+  display: inline-block;
+  width: 289.17px;
+  height: 58.69px;
+}
+.group-parent5 {
+  position: absolute;
+  top: 386.37px;
+  left: 885.75px;
+  width: 605.08px;
+  height: 97.82px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+}
+.work-experience {
+  position: absolute;
+  top: 19.56px;
+  left: 69.26px;
+  display: inline-block;
+  width: 466.57px;
+  height: 58.69px;
+}
+.group-parent6 {
+  position: absolute;
+  top: 1058.85px;
+  left: 885.75px;
+  width: 605.08px;
+  height: 97.82px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+}
+.degree-level {
+  margin: 0;
+}
+.degree-name-and {
+  margin: 0;
+  font-weight: 500;
+}
+.degree-level-degree-container,
+.degree-level-degree-container1 {
+  position: absolute;
+  top: 129.61px;
+  left: 0;
+  line-height: 35px;
+  display: inline-block;
+  width: 392.22px;
+  height: 85.59px;
+}
+.degree-level-degree-container1 {
+  top: 264.1px;
+}
+.degree-level2,
+.degree-name-and2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 162.63px;
+  height: 35.46px;
+}
+.degree-name-and2 {
+  top: 45.24px;
+  font-weight: 500;
+  width: 395.41px;
+}
+.degree-level-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 395.41px;
+  height: 80.7px;
+}
+.degree-level-degree-name-and-a-parent,
+.resumetemplate-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 395.41px;
+  height: 349.69px;
+}
+.resumetemplate-inner {
+  top: 563px;
+  left: 996px;
+  font-size: var(--font-size-5xl);
+}
+.degree-level-degree-container2,
+.degree-level-degree-container3 {
+  position: absolute;
+  top: 129.61px;
+  left: 0;
+  line-height: 35px;
+  display: inline-block;
+  width: 448.34px;
+  height: 85.59px;
+}
+.degree-level-degree-container3 {
+  top: 264.1px;
+}
+.degree-level5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 185.9px;
+  height: 35.46px;
+}
+.degree-level-group,
+.degree-name-and5 {
+  position: absolute;
+  left: 0;
+  width: 451.99px;
+}
+.degree-name-and5 {
+  top: 45.24px;
+  font-weight: 500;
+  display: inline-block;
+  height: 35.46px;
+}
+.degree-level-group {
+  top: 0;
+  height: 80.7px;
+}
+.degree-level-degree-name-and-a-group,
+.resumetemplate-inner1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 451.99px;
+  height: 349.69px;
+}
+.resumetemplate-inner1 {
+  top: 1231.25px;
+  left: 990.24px;
+  font-size: var(--font-size-5xl);
+}
+.resumetemplate-child1,
+.resumetemplate-item {
+  position: absolute;
+  top: 2091px;
+  left: 0;
+  width: 1733px;
+  height: 414.2px;
+}
+.resumetemplate-child1 {
+  top: 0;
+  height: 406.2px;
+}
+.resumetemplate {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2455px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}
