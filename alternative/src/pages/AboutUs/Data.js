@@ -8,6 +8,7 @@ export const homeObjOne = {
   description:
     'We are a dynamic team of four dedicated students passionate about helping individuals achieve their career goals. Our mission is to empower job seekers and professionals with the tools they need to stand out in the competitive job market. ',
   buttonLabel: 'Our Project',
+  buttonLink: "/signup",
   imgStart: '',
   img: require('../../images/img-10.svg').default,
   alt: '',
