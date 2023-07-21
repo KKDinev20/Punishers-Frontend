@@ -13,6 +13,7 @@ import SignUp from './pages/SignUp/SignUp';
 import ResumeSamples from './pages/Resume/ResumeExamples/ResumeSamples';
 import CVSamples from './pages/CV/CVExamples/CVSamples';
 import ResumeBuilder from './pages/Resume/ResumeBuilder/ResumeBuilder';
+import CVBuilder from './pages/CV/CVBuilder/CVBuilder';
 
 
 
@@ -31,7 +32,7 @@ function App() {
         <Route path='/login' component={Login} />
         <Route path='/resume-builder' component={ResumeBuilder} />
         <Route path='/resume-samples' component={ResumeSamples} />
-        <Route path='/cv-builder' component={Login} />
+        <Route path='/cv-builder' component={CVBuilder} />
         <Route path='/cv-samples' component={CVSamples} />
       </Switch>
     </Router>
