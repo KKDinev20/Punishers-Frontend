@@ -14,17 +14,13 @@
 3. Go to the project directory
 
 ```bash
- cd cv-builder
+ cd alternative
 ```
 
 4. Install react components
 
 ```bash
- npm install react-bootstrap bootstrap
- npm install react-router-hash-link
- npm install react-router-dom
- npm install react-bootstrap-icons
- npm install react-on-screen
+ npm install 
 ```     
 
 5. Run the project

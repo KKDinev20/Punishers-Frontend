@@ -1,0 +1,268 @@
+.resumetemplate-child {
+  position: absolute;
+  top: 0;
+  left: -41px;
+  background-color: #f3f4f6;
+  width: 765px;
+  height: 2485px;
+}
+.resumetemplate-item {
+  position: absolute;
+  top: -81px;
+  left: -116px;
+  border-radius: 50%;
+  background-color: #1228f0;
+  width: 500px;
+  height: 500px;
+}
+.resumetemplate-inner {
+  position: absolute;
+  top: 169px;
+  left: 102px;
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
+.contact {
+  position: absolute;
+  top: 709px;
+  left: 123px;
+  font-size: var(--font-size-31xl);
+  line-height: 32px;
+  font-weight: 600;
+  color: var(--color-gray-100);
+}
+.group-icon {
+  position: absolute;
+  height: 90.91%;
+  width: 11.41%;
+  top: 3.03%;
+  right: 88.59%;
+  bottom: 6.06%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div,
+.number {
+  position: absolute;
+  top: 0;
+}
+.div {
+  left: 84px;
+  font-weight: 600;
+}
+.number {
+  height: 15.94%;
+  width: 47.73%;
+  right: 52.27%;
+  bottom: 84.06%;
+  left: 0;
+}
+.kazzarkingbreakermailcom {
+  position: absolute;
+  top: 0;
+  left: 84px;
+  text-decoration: underline;
+  font-weight: 600;
+  color: inherit;
+}
+.group-icon1 {
+  position: absolute;
+  height: 90.91%;
+  width: 7.94%;
+  top: 3.03%;
+  right: 92.06%;
+  bottom: 6.06%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mail,
+.vector-icon {
+  position: absolute;
+  top: 87px;
+  left: 0;
+  width: 504px;
+  height: 33px;
+}
+.vector-icon {
+  height: 90.91%;
+  width: 3.74%;
+  top: 3.03%;
+  right: 96.26%;
+  bottom: 6.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.address,
+.number-parent {
+  position: absolute;
+  top: 174px;
+  left: 0;
+  width: 551px;
+  height: 33px;
+}
+.number-parent {
+  height: 8.43%;
+  width: 31.79%;
+  top: 33.89%;
+  right: 60.88%;
+  bottom: 57.68%;
+  left: 7.33%;
+}
+.education {
+  position: absolute;
+  top: 1127px;
+  left: 127px;
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  color: var(--color-gray-100);
+}
+.degree-level-degree,
+.university-or-college {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.university-or-college {
+  top: 51px;
+  font-size: 21.88px;
+}
+.degree-level-degree-name-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 395px;
+  height: 78px;
+}
+.degree-level-degree-name-container,
+.degree-level-degree-name-group {
+  position: absolute;
+  top: 217px;
+  left: 3px;
+  width: 395px;
+  height: 78px;
+}
+.degree-level-degree-name-container {
+  top: 434px;
+}
+.group-parent,
+.skills {
+  position: absolute;
+  left: 127px;
+}
+.group-parent {
+  top: 1317px;
+  width: 398px;
+  height: 512px;
+}
+.skills {
+  top: 2028px;
+  font-size: var(--font-size-31xl);
+  line-height: 32px;
+  font-weight: 600;
+  color: var(--color-gray-100);
+}
+.adobe-illustrator,
+.figma,
+.invision,
+.sketch {
+  position: absolute;
+  top: 2125px;
+  left: 128px;
+  font-weight: 600;
+}
+.adobe-illustrator,
+.invision,
+.sketch {
+  top: 2200px;
+}
+.invision,
+.sketch {
+  top: 2280px;
+}
+.invision {
+  top: 2360px;
+}
+.jane-doe {
+  position: absolute;
+  top: 236px;
+  left: 813px;
+  font-size: 80px;
+  color: var(--color-gray-100);
+}
+.product-designer {
+  position: absolute;
+  top: 388px;
+  left: 813px;
+  font-weight: 600;
+}
+.product-designer,
+.work-experience {
+  font-size: var(--font-size-31xl);
+}
+.job-position,
+.work-experience {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  color: var(--color-gray-100);
+}
+.company-name,
+.enter-duties-and {
+  position: absolute;
+  top: 142px;
+  left: 0;
+  font-size: 27.34px;
+  font-weight: 600;
+}
+.enter-duties-and {
+  top: 193px;
+  font-size: 21.88px;
+  display: inline-block;
+  width: 579px;
+}
+.job-position-parent {
+  position: absolute;
+  top: 115px;
+  left: 0;
+  width: 579px;
+  height: 247px;
+}
+.job-position-container,
+.job-position-group,
+.work-experience-parent {
+  position: absolute;
+  top: 416px;
+  left: 0;
+  width: 579px;
+  height: 247px;
+}
+.job-position-container,
+.work-experience-parent {
+  top: 717px;
+}
+.work-experience-parent {
+  top: 832px;
+  left: 809px;
+  height: 964px;
+  font-size: var(--font-size-21xl);
+}
+.resumetemplate {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2455px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 27.34px;
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}
